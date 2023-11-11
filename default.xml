@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  <remote name="oss-repo"
+          fetch="https://github.com/yoshigion/" />
+  <default revision="oss-repo" remote="oss-repo" />
+
+  <project  name="buildroot" revision="2023.08.x"/>
+  <project  name="br2-external" revision="main"/>
+
+  <project  name="arm-trusted-firmware" revision="v2.9.0"/>
+  <project  name="u-boot" revision="master"/>
+  <project  name="linux" revision="v6.1"/>
+
+</manifest>
